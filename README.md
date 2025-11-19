@@ -29,8 +29,7 @@ A modern, secure, AI-assisted digital examination platform for **schools, univer
 
 ## 🖼 Screenshots / Demo
 
-*Note: Replace with actual screenshots or GIFs when available*
-
+*Note: 
 ![Dashboard] --- I want to put images link here
 ![Exam Interface] --- I want to put images link here
 ![Admin Analytics] --- I want to put images link here
