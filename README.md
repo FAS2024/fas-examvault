@@ -59,7 +59,7 @@ flowchart TD
 | Backend        | FastAPI (Python)                          |
 | Database       | PostgreSQL                                |
 | Cache/Queue    | Redis + Celery                            |
-| Storage        | AWS S3 (encrypted)                        |
+| Storage        | Local storage / mounted disks                     |
 | Authentication | JWT + OAuth2                              |
 | DevOps         | Docker, Docker Compose, GitHub Actions    |
 | AI Grading     | Python module (rule-based) + LLM (future) |
