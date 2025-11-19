@@ -1,0 +1,79 @@
+/* Reset and global styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #0D1B2A; /* Deep navy background */
+  color: #E0E1DD; /* Main text color */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #FCA311; /* Bright headings for emphasis */
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: 600;
+}
+
+p, span, li {
+  color: #E0E1DD; /* Subtle, readable text */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 1rem;
+}
+
+.button {
+  padding: 10px 22px;
+  background-color: #FCA311; /* Primary CTA button */
+  color: #0D1B2A; /* Dark text on button for contrast */
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  background-color: #FFBA08; /* Hover accent */
+  transform: scale(1.05);
+}
+
+.navbar {
+  background-color: #1B263B; /* Dark slate navbar */
+  color: #FCA311; /* Accent logo/text */
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+a {
+  color: #00B4D8; /* Interactive links */
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #FFBA08; /* Hover effect for links */
+}
+
+.card {
+  background-color: #1B263B; /* Card background */
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+  margin: 1rem;
+  color: #E0E1DD;
+}
+
+.success {
+  color: #38B000;
+}
+
+.error {
+  color: #E63946;
+}
