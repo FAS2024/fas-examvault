@@ -1,0 +1,74 @@
+# =========================
+# Backend (Python / FastAPI)
+# =========================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+backend/venv/
+backend/env/
+backend/ENV/
+
+# Environment variables
+backend/.env
+backend/.env.*.local
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.wheel
+
+# Pytest / coverage
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+coverage.xml
+*.log
+
+# Alembic
+backend/alembic/versions/*.pyc
+backend/alembic/versions/__pycache__/
+
+# =========================
+# Frontend (Node / Next.js)
+# =========================
+
+# Node modules
+frontend/node_modules/
+
+# Next.js build outputs
+frontend/.next/
+frontend/out/
+frontend/dist/
+
+# Environment variables
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/.env.production.local
+frontend/.env.development.local
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# =========================
+# IDE / OS files
+# =========================
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+*.swp
+.idea/
